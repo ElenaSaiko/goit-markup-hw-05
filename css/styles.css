@@ -756,8 +756,7 @@ a.logo .logo-header {
   border-color: #4d5ae5;
 }
 
-.input:focus,
-.icon-username {
+.input:focus + .icon-username {
   fill: #4d5ae5;
 }
 
@@ -808,18 +807,14 @@ a.logo .logo-header {
   margin-bottom: 24px;
 }
 
-.modal-privacy:checked,
-.modal-privacy-text,
-.modal-privacy-span {
+.modal-privacy:checked + .modal-privacy-text .modal-privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
   color: #8e8f99;
 }
 
-.modal-privacy:checked,
-.modal-privacy-text,
-.icon-username-privacy {
+.modal-privacy:checked + .modal-privacy-text .icon-username-privacy {
   fill: #f4f4fd;
 }
 
