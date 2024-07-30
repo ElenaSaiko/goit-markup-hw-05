@@ -588,7 +588,7 @@ a.logo .logo-header {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 488px;
+  width: 408px;
   min-height: 584px;
   border-radius: 4px;
   transform: translate(-50%, -50%);
@@ -673,6 +673,7 @@ a.logo .logo-header {
   margin-left: 16px;
 }
 /*Wingow button*/
+
 .button-close {
   padding: 0;
   position: absolute;
@@ -735,7 +736,7 @@ a.logo .logo-header {
   margin-bottom: 4px;
 }
 
-.icon-username {
+.icon-username-div {
   position: relative;
 }
 
@@ -771,11 +772,11 @@ a.logo .logo-header {
 
 /*Comment*/
 
-.modal-comment-user {
+.comment-text-user {
   margin-bottom: 16px;
 }
 
-.modal-comment {
+.comment-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -793,11 +794,11 @@ a.logo .logo-header {
   background-color: transparent;
 }
 
-.modal-comment::placeholder {
+.comment-text::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-comment:focus {
+.comment-text:focus {
   border-color: #4d5ae5;
 }
 
