@@ -421,6 +421,7 @@ a.logo .logo-header {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .images-ourportfolio {
@@ -468,18 +469,27 @@ a.logo .logo-header {
 
 .container-ourportfolio {
   padding: 32px 16px;
+  border-left: 1px solid #e7e9fc;
   background-color: #ffffff;
 }
 
 .name-images-content {
-  font-size: 18px;
-  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   margin-bottom: 8px;
 }
 
 .text-images-content {
-  font-size: 14px;
-  color: #6c6c6c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /*Footer*/
 
@@ -595,8 +605,8 @@ a.logo .logo-header {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
@@ -708,6 +718,7 @@ a.logo .logo-header {
 .button-close:focus .button-icon {
   fill: #ffffff;
 }
+
 /*Wingow paragraph*/
 
 .window-paragraph {
@@ -715,10 +726,10 @@ a.logo .logo-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
   text-align: center;
   margin-bottom: 16px;
   display: block;
+  letter-spacing: 0.02em;
 }
 
 /*Username,Phone,Email*/
